@@ -1,0 +1,1 @@
+(function(){var b=document.querySelector('.hamburger'),d=document.getElementById('mob-drawer');if(!b||!d)return;b.addEventListener('click',function(){var o=d.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');b.textContent=o?'✕':'☰';b.setAttribute('aria-label',o?'Close menu':'Open menu');});})();
